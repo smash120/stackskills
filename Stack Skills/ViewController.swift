@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBAction func squishMeTapped(sender: AnyObject) {
         if (count >= 10) {
-            yoMammaLabel.text = "you tapped the button " + String(count) + " times"
+            yoMammaLabel.text = "you tapped the button " + String(count) + " times. So STOP IT BITCH"
         }
         count += 1
         print("test button")
